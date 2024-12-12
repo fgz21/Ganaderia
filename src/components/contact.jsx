@@ -62,6 +62,9 @@ const Contact = () => {
           <p className="text-lg text-gray-500 mt-3">¡Lo revisaremos lo mas pronto posible!</p>
         </div>
       </div>
+      <div className="bg-white text-center mt-10 p-4 rounded shadow-md">
+        <p className="text-green-500 text-base">Creado por: Ynx</p>
+      </div>
     </section>
   );
 };
