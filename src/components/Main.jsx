@@ -19,9 +19,7 @@ const Main = () => {
         <p className="text-lg md:text-xl mb-6">
           Nos dedicamos a ofrecer soluciones innovadoras para el cuidado y manejo de ganado, asegurando la salud y bienestar de los animales.
         </p>
-        <button className="mt-4 px-6 py-3 bg-white text-green-500 rounded hover:bg-gray-200 transition duration-300">
-          ¡Ver Mas!
-        </button>
+        
       </div>
     </section>
   );
