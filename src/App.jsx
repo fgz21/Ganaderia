@@ -5,7 +5,7 @@ import Content from './components/contenido';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import ScrollToTopButton from './components/ScrollToTopButton'; 
-import './app.css';
+import './App.css';
 
 function App() {
   return (
