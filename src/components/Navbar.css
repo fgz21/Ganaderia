@@ -1,0 +1,23 @@
+.nav-link {
+  @apply text-green-600 transition duration-300 transform relative inline-block;
+}
+
+.nav-link::after {
+  content: '';
+  @apply block h-1 w-0 bg-green-800 transition-all duration-300 absolute left-0 bottom-0;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.nav-link:hover {
+  @apply text-green-900 scale-110 bg-green-300 rounded-lg p-2 shadow-lg;
+}
+
+
+
+
+/* another effect */
+
+
