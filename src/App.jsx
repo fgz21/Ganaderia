@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Main from './components/Main'; 
 import Contenido from './components/contenido'; 
-import Services from './components/Services';
-import Contact from './components/contact';
+import Servicios from './components/servicios';
+import Contacto from './components/contacto';
 import ScrollToTopButton from './components/ScrollToTopButton'; 
 import './App.css';
 
@@ -12,9 +12,9 @@ function App() {
     <div>
       <Navbar />
       <Main />
-      <Services /> 
+      <Servicios /> 
       <Contenido /> 
-      <Contact /> 
+      <Contacto /> 
       <ScrollToTopButton />
     </div>
   );
