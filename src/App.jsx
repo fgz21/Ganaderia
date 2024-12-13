@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Main from './components/Main'; 
-import Content from './components/contenido';
+import Contenido from './components/contenido'; 
 import Services from './components/Services';
 import Contact from './components/Contact';
 import ScrollToTopButton from './components/ScrollToTopButton'; 
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Main />
       <Services /> 
-      <Content /> 
+      <Contenido /> 
       <Contact /> 
       <ScrollToTopButton />
     </div>
